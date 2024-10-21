@@ -30,7 +30,7 @@ public class Pompeii {
          for (int collections = 0;collections<6;) {
 
             //these variables are use for determine is collections still available there.
-            String countinue = "y";
+            String countinue;
             //interlizing veriables for continue
             System.out.println("                                                      .^:!~(/++_++~~<>><>>>ii?fi!i!!!llllllII;;;;l``^`..                                                \n" +
                     "                                                .^:!<+_~i!:,,`^`;\"^\"\"I:\"\"\";I:lli!,;;i!Illl!!l!i!!_:>><><<<ii!;;:,\"^'..                                  \n" +
