@@ -163,4 +163,3 @@ public class Pompeii {
    System.out.println("Thanks for playing.");
    }
 }
-
