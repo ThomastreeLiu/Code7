@@ -7,27 +7,28 @@ public class Pompeii {
       //set replay
       while (replay.equals("y")){
          int allcollection=0;
+         int forest = 1;
+         int temple = 1;
+         int square = 1;
+         int theater = 1;
+         int farm = 1;
+         int area = 1;
          //allcollections use out of "for loop", this is to determine is player quit itself or the program quit.
          System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" +
                  "Welcome to Pompeii, it was a city in what is now the municipality of Pompei, " +
-                 "near Naples, in the Campania region of Italy." +
-                 " Along with Herculaneum, Stabiae, and many surrounding villas, " +
+                 "near Naples, in the Campania region of Italy.\n" +
+                 " Along with Herculaneum, Stabiae, and many surrounding villas, \n" +
                  "the city was buried under 4 to 6 m (13 to 20 ft) of volcanic ash and pumice in the eruption of Mount Vesuvius in 79 AD. ");
           //introduce the city
          try {
-              Thread.sleep(1000);
+              Thread.sleep(5000);
           } catch (InterruptedException e) {
               throw new RuntimeException(e);
           }
           //sleep for 1000ms
           System.out.println("Now we are going to start our trip, here is the map of pompeii.");
          for (int collections = 0;collections<6;) {
-            int forest = 1;
-            int temple = 1;
-            int square = 1;
-            int theater = 1;
-            int farm = 1;
-            int area = 1;
+
             //these variables are use for determine is collections still available there.
             String countinue = "y";
             //interlizing veriables for continue
