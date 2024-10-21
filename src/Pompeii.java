@@ -4,9 +4,10 @@ public class Pompeii {
    public static void main(String[] args){
       Scanner scan = new Scanner(System.in);
       String replay = "y";
-      System.out.println();
+      //set replay
       while (replay.equals("y")){
          int allcollection=0;
+         //allcollections use out of "for loop", this is to determine is player quit itself or the program quit.
          System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" +
                  "Welcome to Pompeii, it was a city in what is now the municipality of Pompei, " +
                  "near Naples, in the Campania region of Italy." +
@@ -27,7 +28,9 @@ public class Pompeii {
             int theater = 1;
             int farm = 1;
             int area = 1;
+            //these variables are use for determine is collections still available there.
             String countinue = "y";
+            //interlizing veriables for continue
             System.out.println("                                                      .^:!~(/++_++~~<>><>>>ii?fi!i!!!llllllII;;;;l``^`..                                                \n" +
                     "                                                .^:!<+_~i!:,,`^`;\"^\"\"I:\"\"\";I:lli!,;;i!Illl!!l!i!!_:>><><<<ii!;;:,\"^'..                                  \n" +
                     "                                          '\";i++++>l,\"^l'..`;`  ^I\"  ^I\".':lI' ';:' ';;'  `I\",;,\"\"' .':`''`^\"\":Il!><<<<<>>!lI:,\"^.                      \n" +
@@ -64,6 +67,7 @@ public class Pompeii {
                     "                             `::l'... .++``\",\"^:,^`. ^;\"\"``^`\"::li<<<<>[|+-[{<l,`'\"\"\",,;!~_+>;'                                                         \n" +
                     "                                ^I`'`^^'>,'.''``\"\",;I\"\",:\"::,:~>l:\"`'....   ',l>~+_+_++>I^.                                                             \n" +
                     "                                 ',`\"`..           ..''`^^`.. .                   .^^.                                                                  \n");
+            //Print the map
             System.out.println("\nNow choose the place you are going to next. Collect things in different places to get the final story.");
             System.out.println("You have collect "+collections+" collections.");
             int location = scan.nextInt();
@@ -74,6 +78,7 @@ public class Pompeii {
                   forest=0;
                   collections=collections+1;
                }
+               //Forest
                System.out.println("Continue?(y/n)");
                countinue = scan.next();
                if (countinue.equals("n"))
@@ -91,6 +96,7 @@ public class Pompeii {
                if (countinue.equals("n"))
                   collections = 11;
             }
+            //Football
             else if (location==3){
                System.out.println("We are now at Victory Square, this is ...");
                if (square ==1){
@@ -103,6 +109,7 @@ public class Pompeii {
                if (countinue.equals("n"))
                   collections = 11;
             }
+            //Square
             else if (location==4){
                System.out.println("We are now at Star Theater, this is ...");
                if (theater==1){
@@ -115,6 +122,7 @@ public class Pompeii {
                if (countinue.equals("n"))
                   collections = 11;
             }
+            //Theater
             else if (location==5){
                System.out.println("We are now at Coin Farm, this is ...");
                if (farm==1){
@@ -127,6 +135,7 @@ public class Pompeii {
                if (countinue.equals("n"))
                   collections = 11;
             }
+            //Farm
             else if (location==6){
                System.out.println("We are now at Living area, this is ...");
                if (area==1){
@@ -139,12 +148,15 @@ public class Pompeii {
                if (countinue.equals("n"))
                   collections = 11;
             }
+            //Living area
             allcollection=collections;
+            //sycro the collection num out of loop
          }
          if (allcollection == 6) {
             System.out.println("Congratulations, you went all areas in Pompeii city, now here is the final story of Pompeii");
             System.out.println("Pompeii is a city in Ancient Rome Empire. in 79 AD, Pompeii drowned by Vesuvius.");
          }
+         //determine is players collect all collections and quit
          System.out.println("Play again?(y/n)");
          replay = scan.next();
       }
