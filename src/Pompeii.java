@@ -181,7 +181,8 @@ public class Pompeii {
          }
          if (allcollection == 6) {
             System.out.println("Congratulations, you went all areas in Pompeii city, now here is the final story of Pompeii");
-            System.out.println("In fact, there were many earthquakes before the volcano erupted, " +
+            System.out.println("Pompeii is a city in Ancient Rome Empire. in 79 AD, Pompeii drowned by Vesuvius." +
+                    "In fact, there were many earthquakes before the volcano erupted, " +
                     "and that was the last warning of the volcano vesuvius to the inhabitants of Pompeii. " +
                     "But most of the city's inhabitants never believed that the disaster would affect them, " +
                     "and only a small group of people realized the severity of the disaster in advance and fled Pompeii in time, " +
