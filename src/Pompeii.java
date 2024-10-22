@@ -181,7 +181,15 @@ public class Pompeii {
          }
          if (allcollection == 6) {
             System.out.println("Congratulations, you went all areas in Pompeii city, now here is the final story of Pompeii");
-            System.out.println("Pompeii is a city in Ancient Rome Empire. in 79 AD, Pompeii drowned by Vesuvius.");
+            System.out.println("In fact, there were many earthquakes before the volcano erupted, " +
+                    "and that was the last warning of the volcano vesuvius to the inhabitants of Pompeii. " +
+                    "But most of the city's inhabitants never believed that the disaster would affect them, " +
+                    "and only a small group of people realized the severity of the disaster in advance and fled Pompeii in time, " +
+                    "making them the only survivors of the catastrophe of the century. " +
+                    "The heat, gas and dust from the eruption buried the city, " +
+                    "and those who stayed in the city died in despair and agony before being turned to stone. " +
+                    "Today, many archaeologists are trying their best to find out what the people who were turned into " +
+                    "stone were doing in their last moments before they died, searching for the secrets of this catastrophic city.");
          }
          //determine is players collect all collections and quit
          System.out.println("Play again?(y/n)");
