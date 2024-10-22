@@ -1,3 +1,6 @@
+//Author:Thomas;Christian
+//Name:Pompeii
+//Purpose:a travel arround pompeii, you can
 import java.util.Scanner;
 
 public class Pompeii {
