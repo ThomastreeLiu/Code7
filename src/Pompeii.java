@@ -181,15 +181,15 @@ public class Pompeii {
             }
             //Living area
             else if (location==7){
-               System.out.println("This dilapidated building is the Temple of Apollo, " +
-                       "also known as the Sanctuary of Apollo, is a Roman temple built in " +
-                       "120 BC and dedicated to the Greek and Roman god Apollo. " +
-                       "Apollo was the god of prophecy, " +
-                       "so there might be priests or soothsayers in the temple to provide prophetic services " +
-                       "to the citizens to help them understand the auspicious areas of the future or to seek " +
-                       "oracles on major decisions (e.g. war, navigation, etc.). " +
-                       "The laurel crown represents Apollo's triumph, glory and eternity, " +
-                       "and likewise, we've put some replicas in the corners of the temple for you to collect!");
+               System.out.println("This dilapidated building is the Temple of Apollo, \n" +
+                       "also known as the Sanctuary of Apollo, is a Roman temple built in \n" +
+                       "120 BC and dedicated to the Greek and Roman god Apollo. \n" +
+                       "Apollo was the god of prophecy, \n" +
+                       "so there might be priests or soothsayers in the temple to provide prophetic services \n" +
+                       "to the citizens to help them understand the auspicious areas of the future or to seek \n" +
+                       "oracles on major decisions (e.g. war, navigation, etc.). \n" +
+                       "The laurel crown represents Apollo's triumph, glory and eternity, \n" +
+                       "and likewise, we've put some replicas in the corners of the temple for you to collect!\n");
                if (temple2==1){
                   System.out.println("You got the collection Laurel crown");
                   temple2=0;
@@ -202,13 +202,13 @@ public class Pompeii {
             }
             //Temple2
             else if (location==8){
-               System.out.println("I'm sure you've seen some benches along the way that have some holes in them. " +
-                       "Many tourists who come to visit will sit on them to rest. " +
-                       "In fact, these are the toilets that people used at that time.In fact, " +
-                       "almost every private house in these cities, and many apartment houses in Pompeii, " +
-                       "had private, usually one-seater, toilets not connected to the main sewer lines. " +
-                       "There used to be a lot of beautiful mosaics in the toilets, " +
-                       "and we've put some replica store stones in the toilets for you to collect!");
+               System.out.println("I'm sure you've seen some benches along the way that have some holes in them. \n" +
+                       "Many tourists who come to visit will sit on them to rest. \n" +
+                       "In fact, these are the toilets that people used at that time.In fact, \n" +
+                       "almost every private house in these cities, and many apartment houses in Pompeii, \n" +
+                       "had private, usually one-seater, toilets not connected to the main sewer lines. \n" +
+                       "There used to be a lot of beautiful mosaics in the toilets, \n" +
+                       "and we've put some replica store stones in the toilets for you to collect!\n");
                if (washroom==1){
                   System.out.println("You got the collection Mosaic stones");
                   washroom=0;
@@ -221,18 +221,18 @@ public class Pompeii {
             }
             //washroom
             else if (location==9){
-               System.out.println("There are three public baths that can be found at Pompeil. " +
+               System.out.println("There are three public baths that can be found at Pompeil. \n" +
                        "These are the Forum baths, the Stabian\n" +
                        "baths and the central baths. The\n" +
-                       "central baths were still beirtg built at the time of the eruption. " +
-                       "Most people living in Pompeii prefer to go to a public bathhouse to bathe, " +
-                       "and such bathhouses are of high quality, " +
-                       "with three pools of different temperatures, " +
-                       "and there are also swimming pools and saunas. " +
-                       "They have all set up women-only bathhouses. " +
-                       "After work, going to the bathhouse to take a dip is a daily routine for Pompeians. " +
-                       "There used to be many beautiful murals in the bathhouse, " +
-                       "and we've put out some small cards with mural designs that you can collect and enjoy!");
+                       "central baths were still beirtg built at the time of the eruption. \n" +
+                       "Most people living in Pompeii prefer to go to a public bathhouse to bathe, \n" +
+                       "and such bathhouses are of high quality, \n" +
+                       "with three pools of different temperatures, \n" +
+                       "and there are also swimming pools and saunas. \n" +
+                       "They have all set up women-only bathhouses. \n" +
+                       "After work, going to the bathhouse to take a dip is a daily routine for Pompeians. \n" +
+                       "There used to be many beautiful murals in the bathhouse, \n" +
+                       "and we've put out some small cards with mural designs that you can collect and enjoy!\n");
                if (baths==1){
                   System.out.println("You got the collection Mural cards");
                   baths=0;
@@ -245,12 +245,12 @@ public class Pompeii {
             }
             //baths
             else if (location==10){
-               System.out.println("The place we see with the many pillars is the Gladiator Barracks. " +
-                       "In the latter years of Pompeii the four-sided colonnade rising up behind " +
-                       "the Theatre was used as the barracks of the organisation of gladiators who performed in the town." +
-                       " Along the wings of the colonnade and on the first floor were the rooms " +
-                       "which provided accommodation for the gladiators from other towns. " +
-                       "We only made a few small helmet decorations that you can go find and collect.");
+               System.out.println("The place we see with the many pillars is the Gladiator Barracks. \n" +
+                       "In the latter years of Pompeii the four-sided colonnade rising up behind \n" +
+                       "the Theatre was used as the barracks of the organisation of gladiators who performed in the town.\n" +
+                       " Along the wings of the colonnade and on the first floor were the rooms \n" +
+                       "which provided accommodation for the gladiators from other towns. \n" +
+                       "We only made a few small helmet decorations that you can go find and collect.\n");
                if (gladiator==1){
                   System.out.println("You got the collection helmet decorations");
                   gladiator=0;
@@ -266,17 +266,17 @@ public class Pompeii {
             //sycro the collection num out of loop
          }
          if (allcollection == 10) {
-            System.out.println("Congratulations, you went all areas in Pompeii city, now here is the final story of Pompeii");
-            System.out.println("Pompeii is a city in Ancient Rome Empire. in 79 AD, Pompeii drowned by Vesuvius." +
-                    "In fact, there were many earthquakes before the volcano erupted, " +
-                    "and that was the last warning of the volcano vesuvius to the inhabitants of Pompeii. " +
-                    "But most of the city's inhabitants never believed that the disaster would affect them, " +
-                    "and only a small group of people realized the severity of the disaster in advance and fled Pompeii in time, " +
-                    "making them the only survivors of the catastrophe of the century. " +
-                    "The heat, gas and dust from the eruption buried the city, " +
-                    "and those who stayed in the city died in despair and agony before being turned to stone. " +
-                    "Today, many archaeologists are trying their best to find out what the people who were turned into " +
-                    "stone were doing in their last moments before they died, searching for the secrets of this catastrophic city.");
+            System.out.println("Congratulations, you went all areas in Pompeii city, now here is the final story of Pompeii\n");
+            System.out.println("Pompeii is a city in Ancient Rome Empire. in 79 AD, Pompeii drowned by Vesuvius.\n" +
+                    "In fact, there were many earthquakes before the volcano erupted, \n" +
+                    "and that was the last warning of the volcano vesuvius to the inhabitants of Pompeii. \n" +
+                    "But most of the city's inhabitants never believed that the disaster would affect them, \n" +
+                    "and only a small group of people realized the severity of the disaster in advance and fled Pompeii in time, \n" +
+                    "making them the only survivors of the catastrophe of the century. \n" +
+                    "The heat, gas and dust from the eruption buried the city, \n" +
+                    "and those who stayed in the city died in despair and agony before being turned to stone. \n" +
+                    "Today, many archaeologists are trying their best to find out what the people who were turned into \n" +
+                    "stone were doing in their last moments before they died, searching for the secrets of this catastrophic city.\n");
          }
          //determine is players collect all collections and quit
          System.out.println("Play again?(y/n)");
