@@ -19,6 +19,7 @@ public class Pompeii {
          int temple2 = 1;
          int washroom = 1;
          int baths = 1;
+         int gladiator = 1;
          //allcollections use out of "for loop", this is to determine is player quit itself or the program quit.
          System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" +
                  "Welcome to Pompeii, it was a city in what is now the municipality of Pompei, " +
@@ -33,7 +34,7 @@ public class Pompeii {
           }
           //sleep for 5000ms
           System.out.println("Now we are going to start our trip, here is the map of pompeii.");
-         for (int collections = 0;collections<9;) {
+         for (int collections = 0;collections<10;) {
 
             //these variables are use for determine is collections still available there.
             String countinue;
@@ -243,6 +244,24 @@ public class Pompeii {
                   collections = 11;
             }
             //baths
+            else if (location==10){
+               System.out.println("The place we see with the many pillars is the Gladiator Barracks. " +
+                       "In the latter years of Pompeii the four-sided colonnade rising up behind " +
+                       "the Theatre was used as the barracks of the organisation of gladiators who performed in the town." +
+                       " Along the wings of the colonnade and on the first floor were the rooms " +
+                       "which provided accommodation for the gladiators from other towns. " +
+                       "We only made a few small helmet decorations that you can go find and collect.");
+               if (gladiator==1){
+                  System.out.println("You got the collection broken head");
+                  gladiator=0;
+                  collections=collections+1;
+               }
+               System.out.println("Continue?(y/n)");
+               countinue = scan.next();
+               if (countinue.equals("n"))
+                  collections = 11;
+            }
+            //gladiator barracks
             allcollection=collections;
             //sycro the collection num out of loop
          }
