@@ -76,6 +76,8 @@ public class Pompeii {
                     "                                ^I`'`^^'>,'.''``\"\",;I\"\",:\"::,:~>l:\"`'....   ',l>~+_+_++>I^.                                                             \n" +
                     "                                 ',`\"`..           ..''`^^`.. .                   .^^.                                                                  \n");
             //Print the map
+            System.out.println("1.Forest Park; 2.Temple of Venus; 3.Victory Square; 4.Star Theater; 5.Corn Farm; 6.Living Area; \n" +
+                    "7.Temple of Apollo; 8.Public Washroom; 9.Center Baths; 10.Gladiator Barracks;");
             System.out.println("\nNow choose the place you are going to next. Collect things in different places to get the final story.");
             System.out.println("You have collect "+collections+" collections.");
             int location = scan.nextInt();
