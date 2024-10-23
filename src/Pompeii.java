@@ -193,7 +193,13 @@ public class Pompeii {
             }
             //Temple2
             else if (location==8){
-               System.out.println("");
+               System.out.println("I'm sure you've seen some benches along the way that have some holes in them. " +
+                       "Many tourists who come to visit will sit on them to rest. " +
+                       "In fact, these are the toilets that people used at that time.In fact, " +
+                       "almost every private house in these cities, and many apartment houses in Pompeii, " +
+                       "had private, usually one-seater, toilets not connected to the main sewer lines. " +
+                       "There used to be a lot of beautiful mosaics in the toilets, " +
+                       "and we've put some replica store stones in the toilets for you to collect!");
                if (washroom==1){
                   System.out.println("You got the collection Mosaic stones");
                   washroom=0;
