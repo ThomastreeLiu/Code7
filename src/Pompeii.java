@@ -221,7 +221,9 @@ public class Pompeii {
                        "with three pools of different temperatures, " +
                        "and there are also swimming pools and saunas. " +
                        "They have all set up women-only bathhouses. " +
-                       "After work, going to the bathhouse to take a dip is a daily routine for Pompeians.");
+                       "After work, going to the bathhouse to take a dip is a daily routine for Pompeians. " +
+                       "There used to be many beautiful murals in the bathhouse, " +
+                       "and we've put out some small cards with mural designs that you can collect and enjoy!");
                if (baths==1){
                   System.out.println("You got the collection Mural cards");
                   baths=0;
