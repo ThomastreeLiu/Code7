@@ -180,9 +180,17 @@ public class Pompeii {
             }
             //Living area
             else if (location==7){
-               System.out.println("temple2");
+               System.out.println("This dilapidated building is the Temple of Apollo, " +
+                       "also known as the Sanctuary of Apollo, is a Roman temple built in " +
+                       "120 BC and dedicated to the Greek and Roman god Apollo. " +
+                       "Apollo was the god of prophecy, " +
+                       "so there might be priests or soothsayers in the temple to provide prophetic services " +
+                       "to the citizens to help them understand the auspicious areas of the future or to seek " +
+                       "oracles on major decisions (e.g. war, navigation, etc.). " +
+                       "The laurel crown represents Apollo's triumph, glory and eternity, " +
+                       "and likewise, we've put some replicas in the corners of the temple for you to collect!");
                if (temple2==1){
-                  System.out.println("You got the collection Laurel wreath");
+                  System.out.println("You got the collection Laurel crown");
                   temple2=0;
                   collections=collections+1;
                }
