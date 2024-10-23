@@ -215,7 +215,13 @@ public class Pompeii {
                System.out.println("There are three public baths that can be found at Pompeil. " +
                        "These are the Forum baths, the Stabian\n" +
                        "baths and the central baths. The\n" +
-                       "central baths were still beirtg built at the time of the eruption.");
+                       "central baths were still beirtg built at the time of the eruption. " +
+                       "Most people living in Pompeii prefer to go to a public bathhouse to bathe, " +
+                       "and such bathhouses are of high quality, " +
+                       "with three pools of different temperatures, " +
+                       "and there are also swimming pools and saunas. " +
+                       "They have all set up women-only bathhouses. " +
+                       "After work, going to the bathhouse to take a dip is a daily routine for Pompeians.");
                if (baths==1){
                   System.out.println("You got the collection Mural cards");
                   baths=0;
