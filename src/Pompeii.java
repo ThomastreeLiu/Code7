@@ -16,6 +16,9 @@ public class Pompeii {
          int theater = 1;
          int farm = 1;
          int area = 1;
+         int temple2 = 1;
+         int washroom = 1;
+         int baths = 1;
          //allcollections use out of "for loop", this is to determine is player quit itself or the program quit.
          System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" +
                  "Welcome to Pompeii, it was a city in what is now the municipality of Pompei, " +
@@ -30,7 +33,7 @@ public class Pompeii {
           }
           //sleep for 5000ms
           System.out.println("Now we are going to start our trip, here is the map of pompeii.");
-         for (int collections = 0;collections<6;) {
+         for (int collections = 0;collections<9;) {
 
             //these variables are use for determine is collections still available there.
             String countinue;
@@ -176,10 +179,49 @@ public class Pompeii {
                   collections = 11;
             }
             //Living area
+            else if (location==7){
+               System.out.println("temple2");
+               if (temple2==1){
+                  System.out.println("You got the collection Laurel wreath");
+                  temple2=0;
+                  collections=collections+1;
+               }
+               System.out.println("Continue?(y/n)");
+               countinue = scan.next();
+               if (countinue.equals("n"))
+                  collections = 11;
+            }
+            //Temple2
+            else if (location==8){
+               System.out.println("");
+               if (washroom==1){
+                  System.out.println("You got the collection Mosaic stones");
+                  washroom=0;
+                  collections=collections+1;
+               }
+               System.out.println("Continue?(y/n)");
+               countinue = scan.next();
+               if (countinue.equals("n"))
+                  collections = 11;
+            }
+            //washroom
+            else if (location==9){
+               System.out.println("");
+               if (baths==1){
+                  System.out.println("You got the collection Mural cards");
+                  baths=0;
+                  collections=collections+1;
+               }
+               System.out.println("Continue?(y/n)");
+               countinue = scan.next();
+               if (countinue.equals("n"))
+                  collections = 11;
+            }
+            //baths
             allcollection=collections;
             //sycro the collection num out of loop
          }
-         if (allcollection == 6) {
+         if (allcollection == 9) {
             System.out.println("Congratulations, you went all areas in Pompeii city, now here is the final story of Pompeii");
             System.out.println("Pompeii is a city in Ancient Rome Empire. in 79 AD, Pompeii drowned by Vesuvius." +
                     "In fact, there were many earthquakes before the volcano erupted, " +
