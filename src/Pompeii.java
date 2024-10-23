@@ -252,7 +252,7 @@ public class Pompeii {
                        "which provided accommodation for the gladiators from other towns. " +
                        "We only made a few small helmet decorations that you can go find and collect.");
                if (gladiator==1){
-                  System.out.println("You got the collection broken head");
+                  System.out.println("You got the collection helmet decorations");
                   gladiator=0;
                   collections=collections+1;
                }
