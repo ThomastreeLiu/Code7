@@ -265,7 +265,7 @@ public class Pompeii {
             allcollection=collections;
             //sycro the collection num out of loop
          }
-         if (allcollection == 9) {
+         if (allcollection == 10) {
             System.out.println("Congratulations, you went all areas in Pompeii city, now here is the final story of Pompeii");
             System.out.println("Pompeii is a city in Ancient Rome Empire. in 79 AD, Pompeii drowned by Vesuvius." +
                     "In fact, there were many earthquakes before the volcano erupted, " +
