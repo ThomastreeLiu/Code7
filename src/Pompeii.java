@@ -64,9 +64,9 @@ public class Pompeii {
                     "                    .\"^. ^:l,:,+?:.   '\"^'',l>+?[~+<\".  .'^,:!-++i    ',I:`'`,,;\"^\"::`  .`:I,'^:ll:  `,^  .\";'.`::,'.^\"'  ,>I..'. `I>>;'                \n" +
                     "                      '``..\"I:`\">[]i. .;-[]-~l,\",^.:i;;l;?;`. .`,|>     'II:;`.    .^ll:l:\".  \"l..\":' .,:' .::,^.'\"^. .\"\". 'l\"`:l<i,.                   \n" +
                     "                        ``^\"\"\",.  \"~|\\}]+!` ,I:,II:\",>^  ,-,`\",\"'^1l .`\",\"^\":\"^.    __.`\":,\"I^.    \"i` ',\". ^;I\"^.^,`  ^\"' .^\"..\"i+;,.                      \n" +
-                    "                       .^^. ,I^ :})!',:', .l\"''   .:<I^^\">:   .'lxl\"\"`..  .^,,\",\"^'.__|\":\"'\":,`.   \",:\"`\",'  .\"\". '\"'.',!>i,.                         \n" +
-                    "                           `\"' .+\\(!   .\".   .;,;I\"\"\":,i`  '>I,\"\"^`>jl      .^I,^:, __| .'\"ll;'   .^,\"`\"\". .\",. .^\"'.':[)!\".                            \n" +
-                    "                            `^,{}I.\"^^.',+`   .;\":...',:I\"^^^`'.    :(~ .'\";:\",' .`\",\"'^,^' .^;:\",,'.   '\"` .\",'.^,l<~!,'                               \n" +
+                    "                       .^^. ,I^ :})!',:', .l\"''   .:<I^^\">:   .'lxl\"\"`..  .^,,\",\"^'.__|\":\"'\":| |---|\",:\"`\",'  .\"\". '\"'.',!>i,.                         \n" +
+                    "                           `\"' .+\\(!   .\".   .;,;I\"\"\":,i`  '>I,\"\"^`>jl      .^I,^:, __| .'\"ll| |   |,\"`\"\". .\",. .^\"'.':[)!\".                            \n" +
+                    "                            `^,{}I.\"^^.',+`   .;\":...',:I\"^^^`'.  :(~ .'\";:\",' .`\",\"'^,^' .^;| |---|   '\"` .\",'.^,l<~!,'                               \n" +
                     "                           '^;fl    ^IIl:l>'   .::\"\"^\"\"^;I.          \"c<\"I\"\"!<l!!^ Il<:,`   .\"::I:.     .'\".'':!~<i:`                                   \n" +
                     "                          .,.'_+\". ^^'';;'`;'   'I^..   .:__     .''^\"\"\"\"`)j`^\"!_l.'li,l\";l^,:::|   |\"l`.'.'`\":li>!:'                                       \n" +
                     "                            `:.  :>-_' ..^!\"``\"`..'\">`   |__  :I:^`''''''.ic'  '+_!^^\"\"\";,.  .\"l|___|_`'`,l<<>;\".                                           \n" +
@@ -82,7 +82,7 @@ public class Pompeii {
             if (location==1){
                System.out.println("Now we are in the Pompeii forest park which located at the north-east of the Pompeii city. It was one of the \n" +
                        "favorite places of Pompeinans, who enjoyed relaxing walks here, and its wonderful and unique\n" +
-                       "environment inspire many poets. They left a lot of wonderful love on the walls of the streets of Pompeii.\n" +
+                       "environment inspire many poets. They left a lot of wonderful love poems on the walls of the streets of Pompeii.\n" +
                        "You can find some cards in this forest park, there are poems on the cards. You can collect them.\n");
                if (forest==1){
                   System.out.println("You got the collection Poem card");
